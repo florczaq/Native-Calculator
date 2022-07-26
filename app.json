@@ -18,16 +18,19 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.eziu.NativeCalculator"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.eziu.NativeCalculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Easy calculator in react native"
   }
 }
